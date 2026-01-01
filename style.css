@@ -253,19 +253,22 @@ section {
 }
 
 .features-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
     margin-top: 20px;
 }
 
 .feature-item {
     background: var(--glass);
-    padding: 40px 20px;
+    padding: 30px 20px;
     border: 1px solid var(--border);
     transition: all 0.3s;
     text-align: center;
     border-radius: 8px;
+    flex: 1 1 220px;
+    max-width: 300px;
 }
 
 .feature-item:hover {
