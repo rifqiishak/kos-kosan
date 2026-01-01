@@ -253,11 +253,11 @@ section {
 }
 
 .features-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 30px;
     margin-top: 20px;
+    padding: 0 5%;
 }
 
 .feature-item {
@@ -267,8 +267,7 @@ section {
     transition: all 0.3s;
     text-align: center;
     border-radius: 8px;
-    flex: 1 1 220px;
-    max-width: 300px;
+    /* Removed flex properties */
 }
 
 .feature-item:hover {
@@ -667,5 +666,12 @@ footer {
 
     .section-header h2 {
         font-size: 2rem;
+    }
+}
+
+/* Tablet Responsive */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .features-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
