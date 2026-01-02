@@ -5,46 +5,119 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Griya Adam | Hunian Eksklusif Paiton</title>
-
+    <meta name="description"
+        content="Hunian eksklusif dengan fasilitas premium di Paiton. Kenyamanan dan kemewahan dengan harga terjangkau.">
+    <meta name="keywords" content="kost Paiton, griya adam, hunian eksklusif, kost premium, Paiton Probolinggo">
     <link
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Montserrat:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!-- FontAwesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
 </head>
 
 <body>
-
+    <!-- Navigation -->
     <nav id="navbar">
         <a href="#" class="logo">GRIYA ADAM</a>
         <div class="hamburger">
             <i class="fas fa-bars"></i>
         </div>
         <div class="nav-links">
-            <a href="#">HOME</a>
+            <a href="#" class="active">HOME</a>
+            <a href="#about">TENTANG</a>
             <a href="#facilities">FASILITAS</a>
             <a href="#gallery">GALERI</a>
             <a href="#location">LOKASI</a>
+            <a href="#testimonial">TESTIMONI</a>
             <a href="#pricing">HARGA</a>
         </div>
     </nav>
 
+    <!-- Hero Section -->
     <header>
         <div data-aos="fade-up" data-aos-duration="1500">
             <p>Welcome Home</p>
             <h1>GRIYA ADAM</h1>
             <p class="sub-hero">Kenyamanan & Kemewahan di Paiton</p>
-            <div style="margin-top: 30px;">
+            <div class="hero-cta">
+                <a href="#pricing" class="btn-hero">
+                    <i class="fas fa-crown"></i> LIHAT HARGA
+                </a>
+                <a href="https://wa.me/6285336006636" class="btn-hero secondary" target="_blank">
+                    <i class="fab fa-whatsapp"></i> HUBUNGI KAMI
+                </a>
             </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
         </div>
     </header>
 
-    <!-- Quick Intro Section (Simplified) -->
+    <!-- About Section -->
+    <section id="about">
+        <div class="section-header" data-aos="fade-up">
+            <h2>Tentang Griya Adam</h2>
+            <p class="section-subtitle">Cerita di balik hunian premium kami</p>
+            <div class="line"></div>
+        </div>
+
+        <div class="about-content" data-aos="fade-up">
+            <div class="about-text">
+                <h3>Visi Kami</h3>
+                <p>Sejak 2020, Griya Adam berkomitmen menyediakan hunian eksklusif dengan kenyamanan maksimal bagi
+                    profesional muda di area Paiton. Kami percaya bahwa tempat tinggal yang nyaman adalah fondasi
+                    kesuksesan.</p>
+
+                <h3>Misi Kami</h3>
+                <ul class="about-list">
+                    <li><i class="fas fa-check-circle"></i> Memberikan pengalaman tinggal premium dengan harga
+                        terjangkau</li>
+                    <li><i class="fas fa-check-circle"></i> Menjaga kebersihan dan keamanan 24/7</li>
+                    <li><i class="fas fa-check-circle"></i> Menghadirkan fasilitas lengkap untuk produktivitas</li>
+                    <li><i class="fas fa-check-circle"></i> Membangun komunitas penghuni yang harmonis</li>
+                </ul>
+
+                <h3>Nilai Kami</h3>
+                <div class="values-grid">
+                    <div class="value-item">
+                        <i class="fas fa-handshake"></i>
+                        <h4>Integritas</h4>
+                        <p>Transparan dalam semua transaksi dan komunikasi</p>
+                    </div>
+                    <div class="value-item">
+                        <i class="fas fa-heart"></i>
+                        <h4>Kepedulian</h4>
+                        <p>Peduli pada kenyamanan dan kebutuhan penghuni</p>
+                    </div>
+                    <div class="value-item">
+                        <i class="fas fa-star"></i>
+                        <h4>Ekselensi</h4>
+                        <p>Selalu memberikan pelayanan terbaik</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-image" data-aos="fade-left">
+                <div class="image-container">
+                    <img src="assets/6082214260471086008_121.jpg" alt="Owner Griya Adam">
+                    <div class="owner-info">
+                        <h4><i class="fas fa-user-tie"></i> Evi Setyowati</h4>
+                        <p>Owner Griya Adam</p>
+                        <p class="quote">"Kami percaya rumah bukan hanya tempat tinggal, tapi tempat Anda berkembang dan
+                            beristirahat dengan tenang"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities Section -->
     <section id="facilities">
         <div class="section-header" data-aos="fade-up">
             <h2>Fasilitas Premium</h2>
+            <p class="section-subtitle">Pengalaman tinggal terbaik dengan fasilitas kelas satu</p>
             <div class="line"></div>
         </div>
         <div class="features-grid">
@@ -91,100 +164,314 @@
         </div>
     </section>
 
+    <!-- Gallery Section -->
     <section id="gallery">
         <div class="section-header" data-aos="fade-up">
             <h2>Galeri Hunian</h2>
+            <p class="section-subtitle">Lihat langsung kemewahan hunian kami</p>
             <div class="line"></div>
         </div>
 
         <div class="gallery-grid">
             <div class="gallery-item" data-aos="fade-up" data-aos-delay="100">
-                <img src="assets/6084623917512770784_121.jpg" alt="Interior Griya Adam">
+                <img src="assets/6084623917512770784_121.jpg" alt="Interior Griya Adam" loading="lazy">
+                <div class="gallery-overlay">
+                    <h4>Interior Mewah</h4>
+                    <p>Desain interior premium</p>
+                </div>
                 <div class="overlay"><i class="fas fa-search-plus"></i></div>
             </div>
             <div class="gallery-item" data-aos="fade-up" data-aos-delay="200">
-                <img src="assets/6140702369193771035_121.jpg" alt="Fasilitas Griya Adam">
+                <img src="assets/6140702369193771035_121.jpg" alt="Fasilitas Griya Adam" loading="lazy">
+                <div class="gallery-overlay">
+                    <h4>Fasilitas Lengkap</h4>
+                    <p>Semua yang Anda butuhkan</p>
+                </div>
                 <div class="overlay"><i class="fas fa-search-plus"></i></div>
             </div>
             <div class="gallery-item" data-aos="fade-up" data-aos-delay="300">
-                <img src="assets/6230742952645346159_121.jpg" alt="Kamar Mandi Bersih">
+                <img src="assets/6230742952645346159_121.jpg" alt="Kamar Mandi Bersih" loading="lazy">
+                <div class="gallery-overlay">
+                    <h4>Kamar Mandi Premium</h4>
+                    <p>Bersih dan modern</p>
+                </div>
                 <div class="overlay"><i class="fas fa-search-plus"></i></div>
             </div>
             <div class="gallery-item" data-aos="fade-up" data-aos-delay="400">
-                <img src="assets/6230823878419135687_121.jpg" alt="Suasana Nyaman">
+                <img src="assets/6230823878419135687_121.jpg" alt="Suasana Nyaman" loading="lazy">
+                <div class="gallery-overlay">
+                    <h4>Suasana Nyaman</h4>
+                    <p>Atmosfer yang menenangkan</p>
+                </div>
                 <div class="overlay"><i class="fas fa-search-plus"></i></div>
             </div>
             <div class="gallery-item" data-aos="fade-up" data-aos-delay="500">
-                <img src="assets/6298786813845816844_121.png.jpg" alt="Halaman Luas">
+                <img src="assets/6298786813845816844_121.png.jpg" alt="Halaman Luas" loading="lazy">
+                <div class="gallery-overlay">
+                    <h4>Halaman Luas</h4>
+                    <p>Area outdoor yang nyaman</p>
+                </div>
                 <div class="overlay"><i class="fas fa-search-plus"></i></div>
             </div>
             <div class="gallery-item" data-aos="fade-up" data-aos-delay="600">
-                <img src="assets/6298786813845816842_121.jpg" alt="Tampak Depan">
+                <img src="assets/6298786813845816842_121.jpg" alt="Tampak Depan" loading="lazy">
+                <div class="gallery-overlay">
+                    <h4>Tampak Depan</h4>
+                    <p>Bangunan yang megah</p>
+                </div>
                 <div class="overlay"><i class="fas fa-search-plus"></i></div>
             </div>
         </div>
     </section>
 
-
-
+    <!-- Location Section -->
     <section id="location">
         <div class="section-header" data-aos="fade-up">
             <h2>Lokasi Kami</h2>
+            <p class="section-subtitle">Strategis dan mudah diakses</p>
             <div class="line"></div>
         </div>
 
         <div class="location-content" data-aos="fade-up">
-            <p class="address-details" style="text-align: center; max-width: 800px; margin: 0 auto 30px;">
-                <i class="fas fa-map-pin" style="color:var(--accent); margin-right:10px;"></i>
-                <strong>Alamat:</strong> Jl. Joharan Dusun Kejawan, Matikan 1, Sumberejo, Kec. Paiton, Probolinggo
-            </p>
+            <div class="address-card">
+                <div class="address-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="address-details">
+                    <h3>Alamat Lengkap</h3>
+                    <p>Jl. Joharan Dusun Kejawan, Matikan 1, Sumberejo, Kec. Paiton, Probolinggo, Jawa Timur</p>
+                    <div class="location-features">
+                        <div class="location-feature">
+                            <i class="fas fa-hospital"></i>
+                            <span>Dekat Rumah Sakit Rizani</span>
+                        </div>
+                        <div class="location-feature">
+                            <i class="fas fa-industry"></i>
+                            <span>Dekat PLTU Paiton</span>
+                        </div>
+                        <div class="location-feature">
+                            <i class="fas fa-store"></i>
+                            <span>Dekat Pusat Perbelanjaan</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="map-container">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.585786842851!2d113.5016!3d-7.7272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd703f27668638b%3A0x628038cf4e803c0!2sSumberejo%2C%20Kec.%20Paiton%2C%20Kabupaten%20Probolinggo%2C%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1648000000000!5m2!1sid!2sid"
                     width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade">
+                    referrerpolicy="no-referrer-when-downgrade" title="Lokasi Griya Adam di Paiton">
                 </iframe>
             </div>
         </div>
     </section>
 
+    <!-- Testimonial Section -->
+    <section id="testimonial">
+        <div class="section-header" data-aos="fade-up">
+            <h2>Apa Kata Mereka</h2>
+            <p class="section-subtitle">Testimoni penghuni Griya Adam</p>
+            <div class="line"></div>
+        </div>
+
+        <div class="testimonials-grid" data-aos="fade-up">
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    <p class="testimonial-text">"Tempat yang sangat nyaman dan fasilitas lengkap. Harga terjangkau untuk
+                        kualitas premium!"</p>
+                    <i class="fas fa-quote-right quote-icon"></i>
+                </div>
+                <div class="testimonial-author">
+                    <div class="author-info">
+                        <h4>Ahmad</h4>
+                        <p>Tenant 6 bulan</p>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    <p class="testimonial-text">"Lokasi strategis dekat kantor, pelayanan ramah, dan lingkungan yang
+                        aman. Recommended!"</p>
+                    <i class="fas fa-quote-right quote-icon"></i>
+                </div>
+                <div class="testimonial-author">
+                    <div class="author-info">
+                        <h4>Ahmad Romzi</h4>
+                        <p>Tenant 1 tahun</p>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    <p class="testimonial-text">"Fasilitas lengkap, WiFi cepat, dan parkir luas. Cocok untuk profesional
+                        muda seperti saya."</p>
+                    <i class="fas fa-quote-right quote-icon"></i>
+                </div>
+                <div class="testimonial-author">
+                    <div class="author-info">
+                        <h4>Rifqi Maulana Ishak</h4>
+                        <p>Tenant 8 bulan</p>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonial-cta" data-aos="fade-up">
+            <p class="cta-text">Bergabunglah dengan penghuni puas lainnya!</p>
+            <a href="https://wa.me/6285336006636?text=Halo%20Griya%20Adam,%20saya%20tertarik%20untuk%20menjadi%20penghuni"
+                class="btn-testimonial" target="_blank">
+                <i class="fab fa-whatsapp"></i> Hubungi Sekarang
+            </a>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
     <section id="pricing">
-        <div class="price-content" data-aos="flip-left">
+        <div class="pricing-header" data-aos="fade-up">
+            <h2>Investasi Terbaik Anda</h2>
+            <p class="section-subtitle">Harga eksklusif untuk hunian premium</p>
+        </div>
+
+        <div class="price-content" data-aos="flip-left" data-aos-duration="1000">
             <div class="price-card">
-                <p class="label">HARGA TERBAIK</p>
+                <div class="price-badge">
+                    <i class="fas fa-crown"></i>
+                    <span>PROMO TERBAIK</span>
+                </div>
+                <div class="price-label">
+                    <h3>Paket Premium</h3>
+                    <p class="label">SEMUA FASILITAS TERMASUK</p>
+                </div>
+
                 <div class="price-amount">
                     <span class="currency">Rp</span>
                     <span class="amount">400.000</span>
                     <span class="per-month">/ bulan</span>
                 </div>
-                <ul class="price-features">
-                    <li><i class="fas fa-check"></i> Termasuk Listrik & Air</li>
-                    <li><i class="fas fa-check"></i> Bebas Jam Malam</li>
-                    <li><i class="fas fa-check"></i> Keamanan Terjamin</li>
-                </ul>
-                <a href="https://wa.me/6285336006636?text=Halo%20Griya%20Adam,%20saya%20tertarik%20untuk%20info%20kos"
-                    class="btn" target="_blank">
-                    <i class="fab fa-whatsapp"></i> BOOKING SEKARANG
-                </a>
+
+                <div class="price-features">
+                    <div class="feature-highlight">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Termasuk Listrik & Air</span>
+                    </div>
+                    <div class="feature-highlight">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Bebas Jam Malam</span>
+                    </div>
+                    <div class="feature-highlight">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Keamanan 24/7</span>
+                    </div>
+                    <div class="feature-highlight">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Free WiFi High Speed</span>
+                    </div>
+                    <div class="feature-highlight">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Layanan Kebersihan</span>
+                    </div>
+                </div>
+
+                <div class="price-cta">
+                    <a href="https://wa.me/6285336006636?text=Halo%20Griya%20Adam,%20saya%20tertarik%20untuk%20info%20kos%20dan%20booking"
+                        class="btn-price" target="_blank">
+                        <i class="fab fa-whatsapp"></i> BOOKING SEKARANG
+                    </a>
+                </div>
             </div>
         </div>
     </section>
 
+    <!-- Footer -->
     <footer>
-        <p class="footer-logo">GRIYA ADAM</p>
-        <div class="social-links">
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-whatsapp"></i></a>
+        <div class="footer-content">
+            <div class="footer-section">
+                <p class="footer-logo">GRIYA ADAM</p>
+                <p class="footer-tagline">Hunian Eksklusif Paiton</p>
+                <p>Menyediakan pengalaman tinggal terbaik dengan fasilitas premium dan pelayanan maksimal.</p>
+            </div>
+
+            <div class="footer-section">
+                <h4>Kontak Kami</h4>
+                <div class="contact-info">
+                    <p><i class="fas fa-phone"></i> 0853-3600-6636</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Paiton, Probolinggo</p>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h4>Jam Operasional</h4>
+                <p>Setiap Hari</p>
+                <p>08:00 - 21:00 WIB</p>
+                <p>Kunjungan bisa dilakukan dengan appointment</p>
+            </div>
+
+            <div class="footer-section">
+                <h4>Ikuti Kami</h4>
+                <div class="social-links">
+                    <a href="https://instagram.com" class="social-icon" target="_blank"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://facebook.com" class="social-icon" target="_blank"><i
+                            class="fab fa-facebook"></i></a>
+                    <a href="https://wa.me/6285336006636" class="social-icon" target="_blank"><i
+                            class="fab fa-whatsapp"></i></a>
+                    <a href="https://tiktok.com" class="social-icon" target="_blank"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
         </div>
-        <p>&copy; 2026 Griya Adam. All Rights Reserved.</p>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Griya Adam. All Rights Reserved.</p>
+        </div>
     </footer>
 
-    <!-- Floating WhatsApp Button -->
+    <!-- Floating WhatsApp -->
     <a href="https://wa.me/6285336006636?text=Halo%20Griya%20Adam,%20saya%20mau%20tanya%20kost" class="float-wa"
-        target="_blank">
+        target="_blank" aria-label="Chat via WhatsApp">
         <i class="fab fa-whatsapp my-float"></i>
     </a>
+
+    <!-- Lightbox -->
+    <div class="lightbox">
+        <span class="lightbox-close" aria-label="Close lightbox">&times;</span>
+        <img src="" alt="Full Image">
+        <div class="lightbox-nav">
+            <button class="lightbox-prev" aria-label="Previous image"><i class="fas fa-chevron-left"></i></button>
+            <button class="lightbox-next" aria-label="Next image"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
