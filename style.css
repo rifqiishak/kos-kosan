@@ -693,9 +693,8 @@ section {
 
 .icon-box {
     font-size: 2.8rem;
-    margin-bottom: 25px;
+    margin: 0 auto 25px;
     position: relative;
-    display: inline-block;
     height: 80px;
     width: 80px;
     display: flex;
